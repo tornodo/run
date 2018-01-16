@@ -228,16 +228,6 @@ game.states.start = function() {
 	    this.jumpTween.yoyo(true, 0);
 	    this.jumpTween.onComplete.add(this.jumpOver, this, 0, this.dragon);//运动结束回掉
     },
-    this.render = function() {
-    	game.debug.body(this.dragon);
-    	game.debug.body(this.bird);
-    	this.smallGroup.forEach(function(item){
-    		game.debug.body(item);
-    	});
-    	this.bigGroup.forEach(function(item){
-    		game.debug.body(item);
-    	});
-    },
     this.jumpOver = function() {//跳跃完成
     	this.dragon.isJumping = false;
     },

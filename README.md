@@ -1,5 +1,4 @@
-# run
-phaser跑酷游戏
+# phaser跑酷游戏
 
 
 [教程地址](https://www.jianshu.com/p/3eb1ee5ed0b7)
